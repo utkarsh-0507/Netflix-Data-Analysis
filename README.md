@@ -21,15 +21,14 @@ This project focuses on analyzing Netflix's content catalog using Python. The ob
 
 ## 📂 Dataset Information
 The dataset contains information about Netflix titles, including:
+- Overview
+- Original Language
+- Vote_Average
+- Popularity
+- Vote Count
+- Release Date
 - Title
-- Type (Movie/TV Show)
-- Director
-- Cast
-- Country
-- Date Added
-- Release Year
-- Rating
-- Duration
+- Poster Url
 - Genre
 
 ## 🔍 Project Workflow
@@ -41,18 +40,19 @@ The dataset contains information about Netflix titles, including:
 6. Insight Generation
 
 ## 📊 Key Analysis Performed
-- Movies vs TV Shows Distribution
-- Content Added Over Time
-- Top Content Producing Countries
-- Ratings Distribution
-- Genre Analysis
-- Release Year Trends
+- Most frequent genres of movies
+- Highest votes in vote average
+- Movies got the highest popularity with its genre 
+- Movies got the lowest popularity with its genre
+- Genre analysis
+- Year with the most filmmed movies
 
 ## 💡 Insights
-- Movies represent a larger share of Netflix content than TV Shows.
-- Netflix experienced significant content growth in recent years.
-- Certain countries contribute a major portion of available content.
-- Content ratings vary significantly across categories and regions.
+- Drama is the most popular genre on Netflix, with the highest number of titles among other genres.
+- Spider-Man: No Way Home leads the dataset in vote count, suggesting it was one of the most widely viewed and highly engaged titles among audiences.
+- The highest popularity score belongs to Spider-Man: No Way Home, indicating strong audience interest across the Action, Adventure, and Science Fiction genres.
+- The United States vs. Billie Holiday and Threads were the least popular titles in the dataset, each having a popularity score of 13.354.
+- 2020 was the year with most filmmed movies.
 
 ## 🚀 Skills Demonstrated
 - Data Cleaning
